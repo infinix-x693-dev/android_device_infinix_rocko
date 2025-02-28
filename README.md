@@ -1,25 +1,35 @@
-# Device tree for the Tecno Pova 4 Pro (LG8n)
+# Device tree for Infinix Note 10
 
-## Device specifications
+```
+#
+# Copyright (C) 2022 The LineageOS Project
+#
+# SPDX-License-Identifier: Apache-2.0
+#
+```
+
+The Infinix Note 10 (codenamed _"rocko"_) is an entry-level smartphone from Infinix announced in May 2021.
+
+## Device Specifications
 
 | Basic                   | Spec                                                        |
 | ----------------------- | :---------------------------------------------------------- |
-| SoC                     | MediaTek Helio G99 (6nm)                                    |
-| CPU                     | Octa-core (2x2.2 GHz Cortex-A76 & 6x2.0 GHz Cortex-A55)     |
-| GPU                     | Mali-G57 MC2                                                |
-| Memory                  | 8GB                                                         |
-| Shipped Android version | 12                                                          |
-| Storage                 | 256GB                                                       |
-| MicroSD                 | MicroSDXC                                                          |
-| Battery                 | Non-removable Li-Po 6000 mAh                                |
-| Dimensions              | 164.8 x 77 x 9.2 mm                                         |
-| Display                 | 1080 x 2400 pixels, 6.66 inches                             |
-| Rear Camera 1           | 50 MP, (wide), PDAF                                         |
-| Rear Camera 2           | 0.08 MP, (auxiliary)                                        |
-| Front Camera            | 8 MP                                                        |
+| SoC                     | MediaTek Helio G85 (12nm)                                   |
+| CPU                     | 2 x 2.0 GHz Cortex-A75 & 6 x 1.8 GHz Cortex-A55             |
+| GPU                     | Mali-G52 MC2                                                |
+| Memory                  | 4GB / 6GB                                                   |
+| Shipped Android version | 11                                                          |
+| Storage                 | 64GB / 128GB                                                |
+| MicroSD                 | Up to 256 GB                                                |
+| Battery                 | Non-removable Li-Po 5000 mAh                                |
+| Dimensions              | 173.2 x 78.7 x 8.8 mm                                       |
+| Display                 | 2460 x 1080, 6.95 inch                                      |
+| Rear Camera 1           | 48 MP, PDAF                                                 |
+| Rear Camera 2           | 2 MP, f/2.4, (depth)                                        |
+| Rear Camera 3           | 2 MP, f/2.4, (monochrome)                                   |
+| Front Camera            | 16 MP                                                       |
 
 
 ## Device Picture
 
-![Tecno Pova 4 Pro](https://fdn2.gsmarena.com/vv/pics/tecno/tecno-pova4-pro-1.jpg)
-
+![Infinix Note 10](https://fdn2.gsmarena.com/vv/bigpic/infinix-note-10.jpg)
