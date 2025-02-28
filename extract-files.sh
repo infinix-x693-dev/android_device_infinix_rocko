@@ -1,10 +1,18 @@
 #!/bin/bash
 #
-# Copyright (C) 2016 The CyanogenMod Project
-# Copyright (C) 2017-2020 The LineageOS Project
+# SPDX-FileCopyrightText: 2016 The CyanogenMod Project
+# SPDX-FileCopyrightText: 2017-2024 The LineageOS Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
+
+# Load extract_utils and do some sanity checks
+MY_DIR="${BASH_SOURCE%/*}"
+if [[ ! -d "${MY_DIR}" ]]; then MY_DIR="${PWD}"; fi
+
+function blob_fixup_dry() {
+    blob_fixup "$1" ""
+}
 
 # If we're being sourced by the common script that we called,
 # stop right here. No need to go down the rabbit hole.
@@ -14,9 +22,9 @@ fi
 
 set -e
 
-export DEVICE=LG8n
-export DEVICE_COMMON=mt6789-common
-export VENDOR=tecno
-export VENDOR_COMMON=tecno
+export DEVICE=rocko
+export DEVICE_COMMON=mt6768-common
+export VENDOR=infinix
+export VENDOR_COMMON=transsion
 
 "./../../${VENDOR_COMMON}/${DEVICE_COMMON}/extract-files.sh" "$@"

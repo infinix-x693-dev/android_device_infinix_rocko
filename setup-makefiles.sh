@@ -8,9 +8,9 @@
 
 set -e
 
-export DEVICE=LG8n
-export DEVICE_COMMON=mt6789-common
-export VENDOR=tecno
+export DEVICE=rocko
+export DEVICE_COMMON=mt6768-common
+export VENDOR=infinix
 export VENDOR_COMMON=transsion
 
 "./../../${VENDOR_COMMON}/${DEVICE_COMMON}/setup-makefiles.sh" "$@"

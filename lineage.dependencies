@@ -1,44 +1,30 @@
 [
   {
-    "remote"      : "github",
-    "repository"  : "Anything-at-25-00/android_vendor_tecno_LG8n",
-    "branch"      : "fifteen",
-    "target_path" : "vendor/tecno/LG8n"
+    "repository"  : "android_vendor_infinix_rocko",
+    "target_path" : "vendor/infinix/rocko"
   },
   {
-    "remote"      : "github",
-    "repository"  : "Anything-at-25-00/android_vendor_tecno_mt6789-common",
-    "branch"      : "fifteen",
-    "target_path" : "vendor/tecno/mt6789-common"
+    "repository"  : "android_vendor_transsion_mt6768-common",
+    "target_path" : "vendor/transsion/mt6768-common"
   },
   {
-    "remote"      : "github",
-    "repository"  : "Anything-at-25-00/android_device_tecno_mt6789-common",
-    "branch"      : "fifteen",
-    "target_path" : "device/tecno/mt6789-common"
+    "repository"  : "android_device_transsion_mt6768-common",
+    "target_path" : "device/transsion/mt6768-common"
   },
   {
-    "remote"      : "github",
-    "repository"  : "LineageOS/android_hardware_mediatek",
-    "branch"      : "lineage-21",
+    "repository"  : "android_hardware_mediatek",
     "target_path" : "hardware/mediatek"
   },
   {
-    "remote"      : "github",
-    "repository"  : "Anything-at-25-00/device_tecno_lg8n_kernel",
-    "branch"      : "lineage-21",
-    "target_path" : "device/tecno/LG8n-kernel"
+    "repository"  : "device_infnix_rocko-kernel",
+    "target_path" : "device/infinix/rocko-kernel"
   },
   {
-    "remote"      : "github",
-    "repository"  : "LineageOS/android_device_mediatek_sepolicy_vndr",
-    "branch"      : "lineage-21",
+    "repository"  : "android_device_mediatek_sepolicy_vndr",
     "target_path" : "device/mediatek/sepolicy_vndr"
   },
   {
-    "remote"      : "github",
-    "repository"  : "Anything-at-25-00/hardware_transsion",
-    "branch"      : "lineage-20.0",
+    "repository"  : "hardware_transsion",
     "target_path" : "hardware/transsion"
   }
 ]
