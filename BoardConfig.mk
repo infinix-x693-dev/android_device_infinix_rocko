@@ -8,7 +8,6 @@
 include device/transsion/mt6768-common/BoardConfigCommon.mk
 
 # Bootloader
-BOARD_INCLUDE_DTB_IN_BOOTIMG := true
 TARGET_BOOTLOADER_BOARD_NAME := Infinix-X693
 
 # Display
